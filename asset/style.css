@@ -420,6 +420,15 @@ a.btn:nth-child(2)::before {
     grid-gap: 2rem;
 }
 
+.section-service .service-box{
+    flex: 1 1 18rem;
+    padding: 2rem 1rem 2rem;
+    text-align: center;
+    background: var(--secon-bg-color);
+    transition: transform .4s;
+    border-radius: 10px
+}
+
 #box-layer {
     flex: 1 1 18rem;
     width: 32%;
